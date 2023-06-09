@@ -4,6 +4,8 @@
 
 
 -------------------------------- PYTHON ---------------------
+
+```
 input_str = """ Андрей 9
   Василий 11
   Роман 7
@@ -32,7 +34,7 @@ for name, hours_list in stats.items():
         count += int(x[0])
     print(f"{name}: {', '.join(str(x) for x in hours_list)} ; sum: {count}")
     count = 0
-    
+```
     
 -------------------------------- SQL ---------------------    
 SELECT article.id, article.title
