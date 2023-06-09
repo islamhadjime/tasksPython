@@ -35,7 +35,7 @@ for name, hours_list in stats.items():
     print(f"{name}: {', '.join(str(x) for x in hours_list)} ; sum: {count}")
     count = 0
     
-    
+############################################################################################     
 #while True:
     #input_str = input()
     #if not input_str:
