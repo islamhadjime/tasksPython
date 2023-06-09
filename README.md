@@ -3,7 +3,7 @@
 
 
 
--------------------------------- PYTHON ---------------------
+--------------------------------------------------   PYTHON ------------------------------------------   
 
 ```
 input_str = """ Андрей 9
@@ -36,9 +36,12 @@ for name, hours_list in stats.items():
     count = 0
 ```
     
--------------------------------- SQL ---------------------    
+-----------------------------------------------------     SQL     ------------------------------------------        
+
+```
 SELECT article.id, article.title
 FROM article
 LEFT JOIN comment ON article.id = comment.article_id
 WHERE comment.article_id IS NULL;
+```
     
