@@ -34,6 +34,22 @@ for name, hours_list in stats.items():
         count += int(x[0])
     print(f"{name}: {', '.join(str(x) for x in hours_list)} ; sum: {count}")
     count = 0
+    
+    
+#while True:
+    #input_str = input()
+    #if not input_str:
+       # break
+
+    #name, hours = input_str.split()
+    #if name not in stats:
+        #stats[name] = []
+    #stats[name].append(int(hours))
+
+#for name, hours_list in hours_dict.items():
+   # print(f"{name}: {', '.join(map(str, hours_list))}; sum: {sum(hours_list)}")
+    
+    
 ```
     
 -----------------------------------------------------     SQL     ------------------------------------------        
